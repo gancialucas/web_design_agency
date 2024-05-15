@@ -1,0 +1,77 @@
+body {
+  font-family: "Poppins", sans-serif;
+  width: 90%;
+  margin: 5%;
+  background-color: #faf9f6;
+}
+
+h1 {
+  font-size: 5rem;
+}
+
+footer {
+  clear: both;
+  text-align: right;
+  padding-top: 10px;
+  color: midnightblue;
+}
+
+/* ------------------------- */
+
+.creative {
+  color: midnightblue;
+}
+
+.left {
+  float: left;
+}
+
+.right {
+  float: right;
+}
+
+.card {
+  /* La distancia entre cartas es de 5% */
+  width: 47.5%;
+
+  border: 1px solid black;
+  border-radius: 5px;
+  box-shadow: -5px 5px 5px rgb(172, 172, 172);
+
+  margin-bottom: 35px;
+}
+
+.tile-image {
+  height: 200px;
+  float: left;
+  margin-right: 50px;
+}
+
+@media (max-width: 680px) {
+  .logo {
+    width: 100px;
+  }
+
+  h1 {
+    font-size: 3.5rem;
+  }
+
+  .card {
+    width: 100%;
+    display: block;
+    margin-bottom: 30px;
+    text-align: justify;
+  }
+
+  .card img {
+    margin-bottom: 10px;
+    width: 100%;
+    display: inline;
+    object-fit: cover;
+    border-radius: 5px 5px 0 0;
+  }
+
+  h2, p {
+    padding: 0 20px;
+  }
+}
